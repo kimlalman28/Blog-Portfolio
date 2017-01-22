@@ -1,5 +1,5 @@
 #blogbody{
-	background-image: url(http://wallpapercave.com/wp/FjnZ25X.jpg);
+	background-image: url(http://www.fullhdwpp.com/wp-content/uploads/Blue-Forest-Night-45_www.FullHDWpp.com_.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-color: black;
@@ -8,9 +8,9 @@
 }
 
 #blogtitle{
-	font-size: 60px;
-	font-family: "Brush Script MT", cursive;
-	text-align: center;
+	font-size: 55px;
+	font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+	text-align: left;
 	color: white;
 	text-shadow: 6px 6px 10px blue;
 }
@@ -21,46 +21,52 @@ form{
 
 #title{
 	color: white;
-	background-color: lightblue;
-	font-size: 25px;
-	font-family: "Brush Script MT", cursive;
+	background-color: hsla(199, 60%, 62%, .5);
+	font-size: 20px;
+	font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
 }
 
 #body{
 	color: white;
-	background-color: lightblue;
-	font-size: 25px;
-	font-family: "Brush Script MT", cursive;
+	background-color: hsla(199, 60%, 62%, .5);
+	font-size: 20px;
+	font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
 }
 
 #submit{
 	color: white;
-	background-color: lightblue;
-	font-size: 20px;
-	font-family: "Brush Script MT", cursive;
+	background-color: hsla(199, 60%, 62%, .5);
+	font-size: 15px;
+	font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
 }
 
-
-#portlink{
-	text-decoration: none;
+ul{
 	float: right;
-	font-size: 25px;
-	font-family: "Brush Script MT", cursive;
+}
+
+ul li{
+	display: inline;
+}
+ul li .portlink{
+	text-decoration: none;
+	font-size: 20px;
+	font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
 	color: white;
 	text-shadow: 10px 10px 12px blue;
+	padding: 10px;
 	 
 }
 
-#portlink:hover{
+ul li .portlink:hover{
 	background-color: lightblue;
 }
 
 h3{
-	font-size: 30px;
+	font-size: 25px;
 	font-family: garamond;
 	text-align: center;
 	color: white;
-	font-family: 'brush script mt', cursive;
+	font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
 	text-shadow: 3px 3px 10px blue;
 }
 
@@ -68,48 +74,66 @@ h3{
 	text-align: center;
 	color: white;
 	font-size: 20px;
-	font-family: "brush script mt", cursive;
+	font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
 }
 
 #blogpost{
-	background-color: hsla(199, 60%, 62%, .7);
+	background-color: hsla(199, 60%, 62%, .5);
 	margin: 20px auto;
 	border-style: double;
 	width: 80%;
 }
 
+/***************************PORTFOLIO********************************/
+
 #portfoliobody{
-	background-image: url(https://images7.alphacoders.com/681/681977.jpg);
+	background-image: url(https://www.walldevil.com/wallpapers/a80/keyboard-laptop-desk-mac-macintosh.jpg);
 	background-size: cover;
 	background-color: black;
-	background-repeat: no repeat;
+	background-repeat: no-repeat;
+
 }
 
 #portfolioh{
 	color: snow;
+	opacity: .9;
 	font-size: 60px;
 	font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
-	text-align: center;
+	text-align: left;
+	margin: 0;
+	text-shadow: 5px 5px 10px black;
 }
 
-#bloglink{
+#portfolioh2{
+	color: snow;
+	opacity: .9;
+	font-size: 20px;
+	font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+	text-align: left;
+	margin: 0;
+}
+
+ul li .bloglink{
 	float: right;
 	text-decoration: none;
 	color: snow;
 	font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
-	font-size: 25px;
+	font-size: 20px;
 	text-shadow: 4px 4px 6px black;
+	padding: 10px;
 }
 
-#bloglink:hover{
-	background-color: lightblue;
+ul li .bloglink:hover{
+	background-color: black;
 }
+
 
 #socialmedia{
 	text-align:center;
-	border: dashed;
+	border: solid;
 	width: 15%;
 	margin: 20px auto;
+	border-color: black;
 }
 
 .slink:hover{
@@ -125,20 +149,22 @@ h5{
 	margin: 0;
 }
 
-#projects{
+.heading{
 	font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
 	font-size: 25px;
 	color: white;
-	text-shadow: 7px 7px 10px blue;
+	text-shadow: 7px 7px 10px black;
 }
 
-#jukebox{
+.divs{
 	margin: 20px auto;
-	background-color: hsla(199, 60%, 62%, .7);
+	background-color: hsla(188, 60%, 0%, .4);
 }
 
-#jukeboxicon{
+#icon1, #icon2, #icon3{
 	float: left;
+	margin: 0 0 2px 2px;
+	color: oldlace;
 }
 
 .description{
@@ -149,15 +175,20 @@ h5{
 	margin: 0;
 }
 
-#jukeboxlink{
+.links{
 	font-family: arial;
 	font-style: 20px;
 	text-decoration: none;
 	color: snow;
 }
 
-#jukeboxlink:hover{
-	background-color: lightblue;
+.links:hover{
+	background-color: black;
+}
+
+#icon4, #icon5, #icon6, #icon7{
+	color: oldlace;
+	padding: 2px;
 }
 
 

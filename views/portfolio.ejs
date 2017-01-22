@@ -5,41 +5,53 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
 	
-	<title>Portfolio</title>
+	<title>Kim's Portfolio</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
 </head>
+
 <body id="portfoliobody">
-	<h1 id="portfolioh">Portfolio</h1>
+	<h1 id="portfolioh">Kimberly Lalmansingh</h1>
+	<h4 id="portfolioh2">Portfolio</h3>
 
-	<a href="/blog" id="bloglink">Blog</a>
-	<br>
+	<ul>
+		<li><a href="/portfolio" class="bloglink">Portfolio</a></li>
+		<li><a href="/blog" class="bloglink">Blog</a></li>
+	</ul>
+	
+		<br>
+		<br>
 
-	<h2 id="projects">Projects</h2>
+	<h2 class="heading">Projects</h2>
 
-	<div id="jukebox">
-		<i class="fa fa-music fa-4x" id="jukeboxicon"></i>
+	<div class="divs">
+		<i class="fa fa-music fa-4x" aria-hidden="true"id="icon1"></i>
 		<p class="description">Jukebox is an Object-Oriented music player which uses Spotify's API through ajax. The user can select to play one of the four pre-loaded songs in the playist or search a song preview and add it to the playlist. All searched songs are stored in the playlist for future uses. The user has the ability to pause, stop, and play the next track in the list. Simple and functional, Jukebox is ready to play your music!</p>
-		<a href="https://github.com/kimlalman28/Jukebox" id="jukeboxlink">Check out Jukebox!</a>
+		<a href="https://github.com/kimlalman28/Jukebox" class="links">Check out Jukebox!</a>
 	</div>
 
-	<div id="bulletinboard">
+	<div class="divs">
+		<i class="fa fa-list fa-3x" aria-hidden="true" id="icon2"></i>
+		<p class="description">Bulletin Board is an application which uses a PostgreSQL database along with Express and EJS. A user can submit a message which will be saved in the messages database. These messages can then be accessed individually or as a collection of all messages on separate pages.</p>
+		<a href="https://github.com/kimlalman28/BulletinBoard" class="links">Check out Bulletin Board!</a>
+	</div>
+
+	<div class="divs">
+		<i class="fa fa-code fa-3x" aria-hidden="true" id="icon3"></i>
+		<p class="description">Linked here are some projects I did in my Java 212 course at Queens College. These projects consist of experimenting with basic Java, the GUI, hashmaps, treemaps, and more! This can give some information on what I learned throughout the course. </p>
+		<a href="https://github.com/kimlalman28/Java_212" class="links">Check out minor Java projects!</a>
 		
 	</div>
 
-	<div id="Java">
-		
-	</div>
-
-
+	<hr>
 
 
 	<div id="socialmedia">
 		<h5>Follow me @:</h5>
-		<a href="https://www.facebook.com/soramiharu28" class="slink"><i class="fa fa-facebook-official fa-3x" ></i></a>
-		<a href="https://twitter.com/sora_miharu" class="slink"><i class="fa fa-twitter-square fa-3x"></i></a>
-		<a href="https://www.linkedin.com/in/kimberly-lalmansingh-9a8073124?trk=nav_responsive_tab_profile_pic" class="slink"><i class="fa fa-linkedin-square fa-3x"></i></a>
-		<a href="https://github.com/kimlalman28" class="slink"><i class="fa fa-github-square fa-3x"></i></a>
+		<a href="https://www.facebook.com/soramiharu28" class="slink"><i class="fa fa-facebook-official fa-3x" aria-hidden="true"  id= "icon4"></i></a>
+		<a href="https://twitter.com/sora_miharu" class="slink"><i class="fa fa-twitter-square fa-3x" aria-hidden="true" id="icon5"></i></a>
+		<a href="https://www.linkedin.com/in/kimberly-lalmansingh-9a8073124?trk=nav_responsive_tab_profile_pic" aria-hidden="true" class="slink" id="icon6"><i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i></a>
+		<a href="https://github.com/kimlalman28" class="slink"><i class="fa fa-github-square fa-3x" aria-hidden="true" id="icon7"></i></a>
 	</div>
 	
 </body>
