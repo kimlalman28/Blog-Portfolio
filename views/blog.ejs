@@ -1,11 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
 	<title>Blog</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body id="blogbody">
-	<h1>Blog</h1>
+	<h1 id="blogtitle">Blog</h1>
 
 <a href="/portfolio" id="portlink">Portfolio</a>
 	
@@ -14,7 +18,7 @@
 	<br>
 	
 <form action="/blog" method="post">
-	<input type="text" name="title" placeholder="Blog Title" id="title">
+	<input type="text" name="title" placeholder="Post Title" id="title">
 	<br>
 	<br>
 	<textarea name="body" cols="75" rows="5" placeholder="Enter Message..." id="body"></textarea>
@@ -30,7 +34,7 @@
 <% for(var i=(data.length-1); i>=0; i--) { %>
 	<div id="blogpost">
 		<h3><%= data[i].title %></h3>
-		<p><%=data[i].body%></p>
+		<p id="post"><%=data[i].body%></p>
 	</div>
 	<% } %>
 

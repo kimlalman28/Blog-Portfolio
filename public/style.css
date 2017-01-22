@@ -7,7 +7,7 @@
 
 }
 
-h1{
+#blogtitle{
 	font-size: 60px;
 	font-family: "Brush Script MT", cursive;
 	text-align: center;
@@ -64,7 +64,7 @@ h3{
 	text-shadow: 3px 3px 10px blue;
 }
 
-p{
+#post{
 	text-align: center;
 	color: white;
 	font-size: 20px;
@@ -72,8 +72,92 @@ p{
 }
 
 #blogpost{
-	background-color: steelblue;
+	background-color: hsla(199, 60%, 62%, .7);
 	margin: 20px auto;
 	border-style: double;
 	width: 80%;
 }
+
+#portfoliobody{
+	background-image: url(https://images7.alphacoders.com/681/681977.jpg);
+	background-size: cover;
+	background-color: black;
+	background-repeat: no repeat;
+}
+
+#portfolioh{
+	color: snow;
+	font-size: 60px;
+	font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+	text-align: center;
+}
+
+#bloglink{
+	float: right;
+	text-decoration: none;
+	color: snow;
+	font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+	font-size: 25px;
+	text-shadow: 4px 4px 6px black;
+}
+
+#bloglink:hover{
+	background-color: lightblue;
+}
+
+#socialmedia{
+	text-align:center;
+	border: dashed;
+	width: 15%;
+	margin: 20px auto;
+}
+
+.slink:hover{
+	background-color: gray;
+}
+
+
+h5{
+	color: white;
+	font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+	font-size: 20px;
+	padding: 0;
+	margin: 0;
+}
+
+#projects{
+	font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+	font-size: 25px;
+	color: white;
+	text-shadow: 7px 7px 10px blue;
+}
+
+#jukebox{
+	margin: 20px auto;
+	background-color: hsla(199, 60%, 62%, .7);
+}
+
+#jukeboxicon{
+	float: left;
+}
+
+.description{
+	text-align: center;
+	color: snow;
+	font-size: 20px;
+	font-family: palatino;
+	margin: 0;
+}
+
+#jukeboxlink{
+	font-family: arial;
+	font-style: 20px;
+	text-decoration: none;
+	color: snow;
+}
+
+#jukeboxlink:hover{
+	background-color: lightblue;
+}
+
+
