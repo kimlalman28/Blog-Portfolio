@@ -39,6 +39,10 @@ app.get('/portfolio', function(req, res){ //get request for portfolio page. Only
 	res.render('portfolio')
 })
 
+app.get('*', function(req, res){
+	res.status(404).send("Page not found!")
+})
+
 
 app.listen(3000, function(){
 	console.log("App listening on port 3000")
