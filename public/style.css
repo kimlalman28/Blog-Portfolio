@@ -97,7 +97,7 @@ h3{
 #portfolioh{
 	color: snow;
 	opacity: .9;
-	font-size: 60px;
+	font-size: 57px;
 	font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
 	text-align: left;
 	margin: 0;
@@ -107,7 +107,7 @@ h3{
 #portfolioh2{
 	color: snow;
 	opacity: .9;
-	font-size: 20px;
+	font-size: 18px;
 	font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
 	text-align: left;
 	margin: 0;
@@ -136,13 +136,10 @@ ul li .bloglink:hover{
 	border-color: black;
 }
 
-.slink:hover{
-	background-color: gray;
-}
 
 
 h5{
-	color: white;
+	color: black;
 	font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
 	font-size: 20px;
 	padding: 0;
@@ -187,8 +184,16 @@ h5{
 }
 
 #icon4, #icon5, #icon6, #icon7{
-	color: oldlace;
+	color: black;
 	padding: 2px;
+}
+
+#aboutme{
+	text-align: center;
+	color: oldlace;
+	font-size: 20px;
+	font-family: palatino;
+	margin: 0;
 }
 
 
